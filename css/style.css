@@ -1,4 +1,25 @@
 /**COLORES**/
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(240, 143, 98);
+  color: rgb(54, 54, 150);
+  margin-top: 0px;
+  height: 200px;
+  padding-top: 20px;
+}
+
+footer a {
+  color: rgb(54, 54, 150);
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+
+footer a:hover {
+  color: #333;
+}
+
 .seccion1 {
   background: url(../img/artesanal.jpg) no-repeat top center fixed;
   background-size: cover;
@@ -29,6 +50,10 @@ h1 {
   font-size: 32px;
   font-weight: 300;
   background-color: rgb(240, 143, 98);
+}
+
+.navbar-toggler {
+  color: rgb(54, 54, 150);
 }
 
 /*# sourceMappingURL=style.css.map */
