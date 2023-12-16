@@ -1,4 +1,10 @@
 /**COLORES**/
+h1, h2, h3 {
+  color: #333;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 footer {
   text-align: center;
   font-size: 30px;
@@ -17,7 +23,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #333;
+  color: white;
 }
 
 .seccion1 {
@@ -44,6 +50,14 @@ h1 {
 
 .navbar {
   background-color: rgb(240, 143, 98);
+}
+
+.a.navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-brand {

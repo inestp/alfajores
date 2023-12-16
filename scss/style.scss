@@ -1,5 +1,8 @@
 //VARIABLES
 @import 'variables';
+// BASE 
+@import '../scss/base/base';
+@import '../scss/base/typography';
 // COMPONENTES
 @import '../scss/componentes/footer';
 @import '../scss/componentes/header';
@@ -21,9 +24,18 @@ h1 {font-size: 50px; margin-bottom: 20px;  }
     background-color:$orange;
 }
 
+.a.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar-brand{ 
-    font-size: 32px; font-weight: 300;
-background-color: $orange; }
+    font-size: 32px; 
+    font-weight: 300;
+    background-color: $orange; }
 
 .navbar-toggler{
     color: $blue;
