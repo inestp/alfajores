@@ -1,0 +1,19 @@
+.seccion1 {
+  background: url(../img/artesanal.jpg) no-repeat top center fixed;
+  background-size: cover;
+  padding: 280px 50px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.btn-sec1 {
+  background: rgb(54, 54, 150);
+  border: none;
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
