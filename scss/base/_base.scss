@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-y:auto;
+    overflow-x: 100vh;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+main{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}

@@ -1,4 +1,24 @@
 /**COLORES**/
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-y: auto;
+  overflow-x: 100vh;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  background-color: white;
+}
+
 h1, h2, h3 {
   color: #333;
   font-size: 28px;
