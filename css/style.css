@@ -1,3 +1,4 @@
+/**COLORES**/
 .seccion1 {
   background: url(../img/artesanal.jpg) no-repeat top center fixed;
   background-size: cover;
@@ -14,6 +15,20 @@ h1 {
   border: none;
   padding: 10px 50px;
   border-radius: 15px;
+}
+
+.btn-sec1:hover {
+  background-color: rgb(240, 143, 98);
+}
+
+.navbar {
+  background-color: rgb(240, 143, 98);
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 300;
+  background-color: rgb(240, 143, 98);
 }
 
 /*# sourceMappingURL=style.css.map */
